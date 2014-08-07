@@ -13,3 +13,4 @@ ADD /etc /etc
 
 EXPOSE 8080
 
+CMD ["/usr/bin/supervisord", "-n"]
