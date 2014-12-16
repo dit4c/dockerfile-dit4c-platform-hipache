@@ -13,4 +13,4 @@ ADD /etc /etc
 
 EXPOSE 8080
 
-CMD ["bash", "-c", "mkdir -p /var/log/supervisor && /usr/bin/supervisord -n"]
+CMD ["/usr/bin/hipache", "--config", "/etc/hipache.json"]
