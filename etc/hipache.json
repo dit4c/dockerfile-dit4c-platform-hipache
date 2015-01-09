@@ -10,5 +10,5 @@
         "deadBackendOn500": false,
         "httpKeepAlive": false
     },
-    "driver": ["etcd://etcd:4001#dit4c/hipache/"]
+    "driver": ["etcd://etcd:2379#dit4c/hipache/"]
 }
